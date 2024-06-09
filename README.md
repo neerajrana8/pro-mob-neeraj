@@ -21,4 +21,21 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+To create Tutors
+API URL: /courses
+Type: POST
+Body: {
+"course": {
+"name": "",
+"tutors_attributes": [
+{ "name": "Dr. Rana" },
+{ "name": "Dr. Singh" }
+]
+}
+}
+
+
+To get tutors
+
+API URL: /courses
+Type: GET

@@ -14,7 +14,6 @@ ActiveRecord::Schema.define(version: 2024_06_07_061631) do
 
   create_table "courses", force: :cascade do |t|
     t.string "name"
-    t.string "type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
